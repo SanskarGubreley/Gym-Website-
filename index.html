@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&display=swap" rel="stylesheet">
+<style>
+    /* CSS Reset  */
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("abs-1850926.jpg");
+        background-size: 1200px 800px;
+        background-attachment: fixed;
+        background-position: center;
+        font-weight: bold;
+
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 50px;
+        top: 12px;
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 12px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        display: inline-block;
+        right: 34px;
+        top: 20px;
+
+    }
+
+    .navBar {
+        display: inline-block;
+    }
+
+    .navBar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navBar li a {
+        color: white;
+        text-decoration: none;
+        padding: 12px 12px;
+        font-size: 20px;
+
+    }
+
+    .navBar li a:hover {
+        text-decoration: underline;
+        color: darkslategray;
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%);
+        padding-top: 10px;
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 15px;
+        line-height: 0px;
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(66, 61, 61);
+    }
+
+    .container {
+        font-family: 'Baloo Bhai 2', cursive;
+        border: 2px solid white;
+        border-radius: 28px;
+        margin: 67px auto;
+        margin-left: 60%;
+        width: 27%;
+        padding: 35px;
+
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        width: 404px;
+        padding: 2px;
+        margin: 10px auto;
+        border: 2px solid white;
+        font-size: 20px;
+        border-radius: 6px;
+
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 100%;
+        margin: 13px auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="weight-1399281_1280.png" alt="">
+            <div>Sanskar Fitness</div>
+        </div>
+        <div class="mid">
+            <!-- mid box for navBar -->
+            <ul class="navBar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right box for some buttons -->
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+
+    </header>
+    <div class="container">
+        <h1>Join My Gym </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Weight">
+            </div>
+
+        </form>
+        <button class="btn">submit</button>
+    </div>
+</body>
+
+</html>
